@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Code a Responsive Website with Twitter Bootstrap 3</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="css/" rel="stylesheet">
+		<link href="css/styleNew.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/styles.css">
+		
+	<SCRIPT language=javascript> 
+
+		</SCRIPT> 
+		
+	</head>
+	<body>
+		<!-- Navbar -->
+	
+
+ <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <button class="navbar-toggle" data-target="#navbar-exl-collapse" data-toggle="collapse" type ="button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"></a>
+		    <div class="btn-group pull-right">
+                        <a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i> User</a>
+                        <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"> Edit</a>
+				
+			    </li>
+                            <li><a href="#"> Delete</a></li>
+                            <li><a href="#"> Ban</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="i"></i>Sign Out</a></li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-exl-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="home.html">Home</a>
+                            </li>
+                            <li><a href="aboutus.html">About</a>
+			    
+				</li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="onmedia.html">Media</a></li>
+                            <li><a href="partners.html">Customers</a></li>
+                            <li><a href="extras.html#faq">FAQs</a></li>
+                        </ul><!-- end of nav -->
+                        <form class="navbar-form pull-left" action="{% url 'search' %}">
+                            <input type="text" name="q" class="form-control" placeholder="Search a service. e.g IOS design" id="searchInput">
+                            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                        </form>
+                    </div><!-- end of collapse navbar-collapse -->
+                </div><!-- end of inner container -->
+            </nav>
+
+        <!-- Navbar End -->
+
+	<div clas="row">
+		<div class="col-md-12 text-center">
+			
+			<div class="col-md-6 text-center col-sm-6">
+				<div class="span4">
+					</br>
+					</br>
+					</br>
+					<h4>Leading Edge Software Development Services from Silicon Valley</h4>
+					<p>Our Contact Information</p>
+					<p>EMAIL: help@glogou-inc.com</p>
+					<p>SKYPE ID: glogou1</p>
+					<p>HOTLINE: (408) 838-6320</p>
+					<div class="icon_bg"><a href="livechat.php"><img style="border:0px" src="image/contactus.jpg" /></a></div>
+					
+
+				</div>
+			</div><!--end inner col 6 -->
+			<div class="col-md-6 text-center col-sm-6">
+				<div class="span4">
+					</br>
+					</br>
+					</br>
+					<h4>We have offices in</h4>
+					<p>Silicon Valley, California</p>
+					<p>Boston, Massachusetts</p>
+					<h4>Office Address in California</h4>
+					<p>2068 Walsh Ave, Suite C</p>
+					<p>Santa Clara, CA, 95050</p>
+					<p>U.S.A.</p>
+					
+				</div>
+			</div><!--end inner col 6 -->
+		</div>
+	</div>
+	<div clas="row">
+		<div class="col-md-12 text-center">
+			<h3>We provide ALL THE HELP you need for your software development requirements</h3>
+			<div class="col-md-8 col-md-offset-2">
+			<h4>Small or large software development projects ? Contact Us:</h4>
+			<form class="form-horizontal"  method="post" action="http://www.glogou-inc.com/sign_up_submit_glogou.php" onsubmit="return validate(this);">
+				<div class="form-group">
+				    <label for="name" class="col-md-2 control-label">Your Name</label>
+				    <div class="col-md-6">
+					<input type="text" class="form-control col-sm-10" name="name" placeholder="name"/>
+				    </div>
+				</div>
+				
+				<div class="form-group">
+					<label for="inputEmail" class="col-md-2 control-label">Your Email</label>
+					<div class="col-md-6">
+					<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group">
+				    <label for="name" class="col-md-2 control-label">Your Phone</label>
+				    <div class="col-md-6">
+					<input type="text" class="form-control col-sm-10" name="phone" placeholder="phone"/>
+				    </div>
+				</div>
+				<div class="form-group">
+				    <label for="name" class="col-md-2 control-label">Subject:</label>
+				    <div class="col-md-6">
+					<input type="text" class="form-control col-sm-10" name="subject" placeholder="subject"/>
+				    </div>
+				</div>
+				<h4>Additional information to help us understand your requirements:</h4>
+					<ul class="ul1">
+						<li>What are the goals of your projects ?</li>
+						<li>Which platform, framework do you prefer ?</li>
+						<li>When do you plan to start the project ?</li>
+					</ul>
+				<div class="form-group">
+					<label for="message" class="col-md-2 control-label">Comments: </label>
+					<div class="col-md-8">
+					<textarea class="form-control" name="message" id="message" required="required"></textarea>
+					</div>
+				</div>
+
+            <button type="submit" class="btn btn-primary" id="submit" style="margin-left: 40px">Send</button>
+
+    
+			</form>
+				
+			</div><!--end inner col 6 -->
+		</div><!-- end col-md-12 -->
+	</div><!-- end row -->
+	
+
+       
+                <div class="container">
+                    <div class="row" id="footer">
+                        <div class="col-md-12 text-center">
+                            <ul class="nav nav-pills">
+                                
+                                <li><a href="/contacts.php">Contacts Us</a></li>
+                            </ul>
+                            <ul>
+                                <p>&copy;2014 glogou-INC.com.</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- end of container -->
+            
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+	
+	</body>

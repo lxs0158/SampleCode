@@ -1,0 +1,347 @@
+@media screen and (min-width: 800px) {
+p,h1{
+    display: inline-block;
+}
+.sid-bar{
+    border:3px solid rgb(88,175,246);
+    margin: 10px 10px 10px 20px;
+    padding: 0;
+}
+.sid-bar>div{
+    background-color: rgb(88,175,246);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.sid-bar>ul>li>div{
+    text-align: center;
+}
+li>div>div{
+    color: rgb(88,175,246);
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul ul{
+    display: none;
+    }
+.sid-bar>ul>li>div:hover{
+     background-color:grey
+  
+}
+li:hover > ul {  
+        background-color: white;
+        display: block;
+        position: absolute;
+        border: 3px solid rgb(88,175,246);
+        right: -800px;
+        top: 70px;
+        width: 800px;
+        height: 300px;
+        color:  rgb(160,152,148);
+    }
+    
+a{
+    color: rgb(160,152,148);
+}
+li>p{
+    float:left;
+    margin:20px;
+}
+
+.carousel-show{
+    display: block;
+    position: relative;
+    z-index: -1;
+    top: 10px;
+
+}
+.carousel-inner{
+    max-height: 413px !important;
+}
+
+
+/******************************************/
+.destination{
+    position: relative;
+    text-align: center;
+    padding: 0;
+    left: 10px;
+}
+
+nav{
+    position: relative;
+    margin: 20px auto;
+    border-top: solid 5px pink;
+    
+    
+}
+h2{
+    position: relative;
+    display: block;
+    background-color: white;
+    z-index: 1;
+    width: 170px;
+    margin-left: 40%;
+    top: -10px;
+}
+nav>a:link{
+    text-decoration: none;
+}
+nav>a{
+    font-size: medium;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-left: 40px;
+    
+}
+
+nav>a:hover{
+    font-size: medium;
+    border-style: solid;
+    border-width: 10px;
+    border-color: pink;
+    border-radius: 15px;
+    background-color: pink;
+}
+
+
+/*
+.travel-galery{
+    display: none;
+    width: 900px;
+    height: 800px;
+    background-color: grey;
+    position: absolute;
+}
+.second-part>li{
+    float: left;
+    margin:  20px;
+}
+.second-part{
+    width: 800px;
+    margin: auto;
+}
+.second-part>li:hover>div:nth-of-type(2){
+    clear: both;
+    display: block;
+ 
+}
+*/
+
+.ny-background,.to-background{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 280px;
+}
+.ny-background{
+    background-image:url("imgs/nyc-skyline.jpg");
+}
+.to-background{
+    background-image:url("imgs/toronto.jpg");
+}
+.sf-background,.van-background{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 280px;
+    margin-bottom: 20px;
+}
+.sf-background{
+    background-image:url("imgs/sf.jpg");
+}
+.van-background{
+    background-image:url("imgs/vancouver.jpg");
+}
+.dc-background,.mon-background{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 280px;
+}
+.dc-background{
+    background-image:url("imgs/dc.jpg");
+ }
+.mon-background{
+     background-image:url("imgs/montreal.jpg");
+}
+.la-background,.ott-background{
+    position: relative;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 280px;
+    margin-bottom: 20px;
+}
+.la-background{
+    background-image:url("imgs/LA.jpeg");
+}
+.ott-background{
+     background-image:url("imgs/ottawa.png");
+}
+.cg-background,.que-background{
+    position: relative; 
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 280px;
+}
+.cg-background{
+     background-image:url("imgs/cca.jpg");
+}.que-background{
+    background-image:url("imgs/Quebec.jpg");
+}
+.las-background,.cal-background{
+    position: relative; 
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 280px;
+}
+.las-background{
+    background-image:url("imgs/las_vegas.jpg");
+}
+.cal-background{
+     background-image:url("imgs/Calgary.jpg");
+}
+    
+.top-right-box{
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    background: rgba(250, 250, 250, .3);
+}
+.top-right-box>p{
+    display: block;
+    color:white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ny-background:hover>div:first-child,.sf-background:hover>div:first-child,
+.dc-background:hover>div:first-child, .la-background:hover>div:first-child,
+.cg-background:hover>div:first-child, .las-background:hover>div:first-child,
+.to-background:hover>div:first-child,.van-background:hover>div:first-child,
+.mon-background:hover>div:first-child, .ott-background:hover>div:first-child,
+.que-background:hover>div:first-child, .cal-background:hover>div:first-child
+{
+    height: 100%;
+    width:100%;
+}
+.ny-background:hover>div:first-child>p,.sf-background:hover>div:first-child>p,
+.dc-background:hover>div:first-child>p, .la-background:hover>div:first-child>p,
+.cg-background:hover>div:first-child>p, .las-background:hover>div:first-child>p,
+.to-background:hover>div:first-child>p,.van-background:hover>div:first-child>p,
+.mon-background:hover>div:first-child>p, .ott-background:hover>div:first-child>p,
+.que-background:hover>div:first-child>p, .cal-background:hover>div:first-child>p{
+    margin-top: 20%;
+}
+#canada-galery, #frence-galery, #italia-galery,
+#german-galery, #austra-galery{
+    display: none;
+}
+
+/*************************part 3*************************************/
+.pn-background{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 280px;
+    
+}
+
+.pn-background-hover1{
+    border-top: solid rgb(88,175,246);
+    border-left: solid rgb(88,175,246);
+    border-right:solid rgb(88,175,246);
+}
+
+.pn-background-hover2{
+    border-top: hidden;
+    border-left: solid rgb(88,175,246);
+    border-right:solid rgb(88,175,246);
+    border-bottom: solid rgb(88,175,246);
+}
+
+
+.pn-background~div{
+    position: relative;
+    width: 280px;
+    height: 100px;
+    background-color: rgb(215,233,247);
+}
+
+.pn-background~div>div{
+    margin-left: 5px;
+}
+.pn-background~div>div>p{
+    font-size: 18px;
+}
+.pn-background~div>div>p:hover{
+    color: rgb(88,175,246);
+}
+
+.pn-background~div>div:nth-child(2)>a:nth-child(3){
+    position: absolute;
+    color: rgb(242,111,14);
+    right: 0px;
+    margin-right:5px;
+    top: 50px;
+    font-size: 20px;
+   
+}
+
+.pn1{
+    background-image:url("imgs/1.png");
+}
+.pn1{
+    background-image:url("imgs/1.png");
+}
+
+.pn2{
+    background-image:url("imgs/2.png");
+}
+
+.pn3{
+    background-image:url("imgs/3.png");
+}
+
+.pn4{
+    background-image:url("imgs/4.png");
+}
+
+.pn5{
+    background-image:url("imgs/5.png");
+}
+
+.pn6{
+    background-image:url("imgs/6.png");
+}
+
+.pn7{
+    background-image:url("imgs/7.png");
+}
+.pn8{
+    background-image:url("imgs/8.png");
+}
+#sky-container{
+    display: none;
+}
+
+
+
+
+}

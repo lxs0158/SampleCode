@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Glogou, Inc, leading softwar development company in Sillion Valley</title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="css/" rel="stylesheet">-->
+		
+		<!--bootstrap CDN-->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<!-- Latest compiled and minified JavaScript -->
+		<!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+
+		<!-- Custom CSS -->
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/styleNew.css" rel="stylesheet">
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--<script src="js/bootstrap.min.js"></script>-->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+		<script>
+
+$(function(){
+
+  $('#myCarousel').carousel();
+});
+</script>
+	</head>
+	<body>
+		<!-- Navbar -->
+	
+
+ <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <button class="navbar-toggle" data-target="#navbar-exl-collapse" data-toggle="collapse" type ="button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="home.html"><img src="image/glogou_logo2.png" /></a>
+		    <div class="btn-group pull-right">
+                        <a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i> User</a>
+                        <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"> Edit</a>
+				
+			    </li>
+                            <li><a href="#"> Delete</a></li>
+                            <li><a href="#"> Ban</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="i"></i>Sign Out</a></li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-exl-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li><a href="aboutus.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="onmedia.html">Media</a></li>
+                            <li><a href="partners.html">Customers</a></li>
+                            <li><a href="extras.html#faq">FAQs</a></li>
+                        </ul><!-- end of nav -->
+                        <form class="navbar-form pull-left" action="{% url 'search' %}">
+                            <input type="text" name="q" class="form-control" placeholder="Search a service. e.g IOS design" id="searchInput">
+                            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                        </form>
+                    </div><!-- end of collapse navbar-collapse -->
+                </div><!-- end of inner container -->
+            </nav>
+
+        <!-- Navbar End -->
+	<!-- Carousel
+================================================== -->
+<div class = "row ">
+	<div class="col-md-1"></div>
+	<div class="col-md-10 col-centered">
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+          <div class="item active">
+            <img src="image/cloud1.jpg" alt="Apple iPhone 5S" style="height: 400px">
+            <div class="carousel-caption">
+              <h3>Cloud Based Custom Software Development</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/mobile.jpg" alt="Samsung Galaxy Note 3">
+            <div class="carousel-caption">
+              <h3>Mobile Application Development</h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/goverment.jpg" alt="Apple iPhone 5S">
+            <div class="carousel-caption">
+              <h3>E-procurement System for Goverment Agency</h3>
+              <p></p>
+            </div>
+          </div>
+        
+		  <div class="item">
+            <img src="image/uvi.jpg" alt="Samsung Galaxy Note 3">
+            <div class="carousel-caption">
+              <h3>Media Monitoring Services for Higher Education</h3>
+              <p></p>
+            </div>
+          </div>
+	 <div class="col-md-1"></div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+</div>
+</div>
+</div>
+<!-- /.carousel -->
+	<div class="row">
+		<div class="col-md-12 text-center" id="slogan">
+			<h2>HIGH QUALITY AND COST EFFECTIVE SOFTWARE COMSULTING SERVICES FROM BAY AREA, CALIFORNIA</h2>
+			<div class="col-md-6 text-center col-sm-6">
+				<div class="span4">
+					<div class="icon_bg"><img src="image/e-procurement.jpg" width="500" height="400" alt="icon"></div>
+					<h4>Cloud Based Mobile Friendly E-procurement Management System</h4>
+					<p></p>
+				</div>
+			</div><!--end inner col 6 -->
+			<div class="col-md-6 text-center col-sm-6">
+				<div class="span4">
+					<div class="icon_bg"><img src="image/MM.png" width="500" height="400" alt="icon"></div>
+					<h4>Media Monitoring Services with Automatic Data Collection and Analysis</h4>
+					<p></p>
+				</div>
+			</div><!--end inner col 6 -->
+		</div>
+	</div>
+	<div clas="row">
+		<div class="col-md-12 text-center">
+			
+			<div class="col-md-12 text-center col-sm-6">
+				<div class="span4">
+					<div class="icon_bg"><img src="image/CSD.jpg" width="1000" height="400" alt="icon"></div>
+					<h4>Custom Software and Mobile App Development Services for Goverment & Public</h4>
+					<p></p>
+				</div>
+			</div><!--end inner col 6 -->
+		</div>
+	</div>
+	
+
+       
+                <div class="container">
+                    <div class="row" id="footer">
+                        <div class="col-md-12 text-center">
+                            <ul class="nav nav-pills">
+                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                            <ul>
+                                <p>&copy;2014 glogou-INC.com.</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- end of container -->
+            
+	
+	</body>
+</html>

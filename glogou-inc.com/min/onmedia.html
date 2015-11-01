@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Code a Responsive Website with Twitter Bootstrap 3</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="css/" rel="stylesheet">
+		<link href="css/styleNew.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/styles.css">
+		
+	<script>
+		
+
+
+ $('#myCarousel').carousel({
+	interval: 2000
+ })
+</script>
+	
+	</head>
+	</head>
+	<body>
+		<!-- Navbar -->
+	
+
+ <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <button class="navbar-toggle" data-target="#navbar-exl-collapse" data-toggle="collapse" type ="button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"></a>
+		    <div class="btn-group pull-right">
+                        <a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i> User</a>
+                        <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"> Edit</a>
+				
+			    </li>
+                            <li><a href="#"> Delete</a></li>
+                            <li><a href="#"> Ban</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="i"></i>Sign Out</a></li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-exl-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="home.html">Home</a>
+                            </li>
+                             <li><a href="aboutus.html">About</a>
+			    
+				</li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="onmedia.html">Media</a></li>
+                            <li><a href="partners.html">Customers</a></li>
+                            <li><a href="extras.html#faq">FAQs</a></li>
+                        </ul><!-- end of nav -->
+                        <form class="navbar-form pull-left" action="{% url 'search' %}">
+                            <input type="text" name="q" class="form-control" placeholder="Search a service. e.g IOS design" id="searchInput">
+                            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                        </form>
+                    </div><!-- end of collapse navbar-collapse -->
+                </div><!-- end of inner container -->
+            </nav>
+
+        <!-- Navbar End 
+		<!-- Carousel
+================================================== -->
+<div class = "row ">
+	<div class="col-md-1"></div>
+	<div class="col-md-10 col-centered">
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+          <div class="item active">
+            <img src="image/cloud1.jpg" alt="Apple iPhone 5S" style="height: 400px">
+            <div class="carousel-caption">
+              <h3>Cloud Based 1</h3>
+              <p>Cloud Based Mobile Friendly Software Service For Goverment & Public</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/mobile.jpg" alt="Samsung Galaxy Note 3">
+            <div class="carousel-caption">
+              <h3>Mobile Based</h3>
+              <p>Input More Cloud Based </p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/goverment.jpg" alt="Apple iPhone 5S">
+            <div class="carousel-caption">
+              <h3>Goverment</h3>
+              <p>33333333333333333333333333</p>
+            </div>
+          </div>
+        
+	 <div class="item">
+            <img src="image/uvi.jpg" alt="Samsung Galaxy Note 3">
+            <div class="carousel-caption">
+              <h3>University</h3>
+              <p>444444444444444 </p>
+            </div>
+          </div>
+	 <div class="col-md-1"></div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+</div>
+</div>
+</div>
+<!-- /.carousel -->
+
+	<div clas="row">
+		<div class="col-md-12 text-center">
+			<h1>Media</h1>
+			<div class="col-md-2">
+				<img class="logo" src="Media/picture19.png" />
+			</div><!-- end of col-md-2 -->
+			<div class="col-md-2">
+				<img class="logo" src="Media/picture20.png" />
+			</div><!-- end of col-md-2 -->
+			<div class="col-md-2">
+				<img class="logo" src="Media/picture21.png" />
+			</div><!-- end of col-md-2 -->
+			<div class="col-md-2">
+				<img class="logo" src="Media/picture22.png" />
+			</div><!-- end of col-md-2 -->
+			<div class="col-md-2">
+				<img class="logo" src="Media/picture23.png" />
+			</div><!-- end of col-md-2 -->
+			<div class="col-md-2">
+				<img class="logo" src="Media/picture24.png" />
+			</div><!-- end of col-md-2 -->
+		</div>
+	</div>
+	
+	
+
+       
+                <div class="container">
+                    <div class="row" id="footer">
+                        <div class="col-md-12 text-center">
+                            <ul class="nav nav-pills">
+                                
+                                <li><a href="contact.html">Contacts Us</a></li>
+                            </ul>
+                            <ul>
+                                <p>&copy;2014 glogou-INC.com.</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- end of container -->
+           
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+	
+	</body>
+</html>
